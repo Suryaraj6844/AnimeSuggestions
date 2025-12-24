@@ -1,0 +1,118 @@
+body {
+  background-image: url("samu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  
+}
+
+header{
+background-color:blue;
+padding:20px;
+text-align:center;
+color:white;
+font-size: 30px;
+font-weight:bold;
+}
+
+.top-nav {
+background-color:darkblue;
+text-align:center;
+}
+
+.top-nav a {
+color:white;
+padding: 14px 25px;
+display:inline-block;
+text-decoration:none;
+font-size: 18px;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+   
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  color: darkred;
+   
+  
+}
+ 
+
+
+ 
+
+
+/* Trending Section */
+.toppicks {
+  background-color: lightblue;
+  width: 50%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  font-size: 22px;
+  line-height: 1.8;
+  text-align: center;
+  color: black;
+  font-weight: bold; 
+  box-shadow: 10px gray;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+ 
+}
+
+.toppicks:hover {
+  box-shadow:0px 0px 20px black;
+  transform:scale(1.02);
+}
+
+
+ 
+
+.toppicks h2 {
+  text-align: center;
+  color: #000;
+  font-size: 26px;				
+}
+
+.animelist {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding: 12px 20px;
+background-color: blue;
+color:white;
+text-decoration:none;
+font-size: 18px;
+border-radius:8px;
+}
+
+
+ 
+
+ 
+ 
+ 
